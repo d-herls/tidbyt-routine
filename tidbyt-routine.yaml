@@ -3,7 +3,7 @@ name: Update Tidbyt Routine
 on:
   # Run every 5 minutes (you can change to "*/1 * * * *" for every minute)
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/2 * * * *"
   # Allow manual runs from the GitHub UI
   workflow_dispatch:
 
